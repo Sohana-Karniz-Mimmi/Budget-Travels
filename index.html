@@ -63,7 +63,7 @@
         <div class="container mx-auto">
             <div class="hero">
                 <div class="hero-content flex-col lg:flex-row-reverse">
-                  <div class="max-w-[640px]">
+                  <div class="max-w-[600px]">
                     <img src="./Images/man.jpg" class="" />
                   </div>
                   <div>
@@ -79,9 +79,10 @@
     <!-- header ends here -->
 
     <main>
-        <section class="my-24">
-            <!-- Cards items -->
-            <div class="">
+        <section class="my-20">
+            <div class="flex gap-3">
+                <!-- Cards items -->
+            <div class="grid grid-cols-2 gap-2 flex-1">
                 <!-- card1 -->
                 <div class="flex justify-between items-center gap-5 card-compact w-80 bg-base-100 drop-shadow-lg p-3">
                     <figure class="flex-1"><img class="rounded-xl" src="./Images/sajek.jpg" alt="Shoes" /></figure>
@@ -93,6 +94,63 @@
                       </div>
                     </div>
                   </div>
+                <!-- card2 -->
+                <div class="flex justify-between items-center gap-5 card-compact w-80 bg-base-100 drop-shadow-lg p-3">
+                    <figure class="flex-1"><img class="rounded-xl" src="./Images/dhaka.jpg" alt="Shoes" /></figure>
+                    <div class=" flex-wrap">
+                      <h2 class="text-2xl font-bold">Dhaka</h2>
+                      <p class="font-bold">cost: <span>300 </span>$</p>
+                      <div class="card-actions mt-4">
+                        <button class="btn btn-primary h-8 min-h-8">Add to Card</button>
+                      </div>
+                    </div>
+                  </div>
+                <!-- card3 -->
+                <div class="flex justify-between items-center gap-5 card-compact w-80 bg-base-100 drop-shadow-lg p-3">
+                    <figure class="flex-1"><img class="rounded-xl" src="./Images/khulna.jpg" alt="Shoes" /></figure>
+                    <div class=" flex-wrap">
+                      <h2 class="text-2xl font-bold">Khulna</h2>
+                      <p class="font-bold">cost: <span>500 </span>$</p>
+                      <div class="card-actions mt-4">
+                        <button class="btn btn-primary h-8 min-h-8">Add to Card</button>
+                      </div>
+                    </div>
+                  </div>
+                <!-- card4 -->
+                <div class="flex justify-between items-center gap-5 card-compact w-80 bg-base-100 drop-shadow-lg p-3">
+                    <figure class="flex-1"><img class="rounded-xl" src="./Images/cox's bazar.jpg" alt="Shoes" /></figure>
+                    <div class=" flex-wrap">
+                      <h2 class="text-2xl font-bold">Cox's Bazar</h2>
+                      <p class="font-bold">cost: <span>500 </span>$</p>
+                      <div class="card-actions mt-4">
+                        <button class="btn btn-primary h-8 min-h-8">Add to Card</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+
+            <!-- Card Cost -->
+            <div class="flex-1 pr-8 bg-base-100 drop-shadow-lg">
+                <div>
+                    <div class="text-center">
+                        <h2 class="text-2xl font-bold">Cart</h2>
+                        <hr>
+                        <div></div>
+                        <hr>
+
+                        <p class="font-bold">Total Cost: <span>0 </span>$</p>
+                        <div class=" mt-4 mb-2">
+                          <button class="btn btn-primary h-8 min-h-8">Bus +100</button>
+                          <button class="btn btn-primary h-8 min-h-8">Train -200</button>
+                          <button class="btn btn-primary h-8 min-h-8">Flight +500</button>
+                        </div>
+                        <hr>
+                        <p class="font-bold">Grand Total: <span>0 </span>$</p>
+                      </div>
+                </div>
+            </div>
+
             </div>
         </section>
     </main>
